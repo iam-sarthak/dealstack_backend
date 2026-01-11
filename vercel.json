@@ -24,13 +24,5 @@
   ],
   "env": {
     "NODE_ENV": "production"
-  },
-  "functions": {
-    "**/*.js": {
-      "bundle": true,
-      "includeFiles": [
-        "node_modules/pg/**"
-      ]
-    }
   }
 }
